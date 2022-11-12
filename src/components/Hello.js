@@ -9,6 +9,7 @@ import React from 'react';
 // }
 
 // arrow function
+
  const Hello=()=>
 {
  return <h1 className=' text-sky-400/75 hover:italic  '>
