@@ -1,5 +1,6 @@
 import React from 'react';
 
+// normal funtion 
 // function Hello()
 // {
  // return <h1 className=' text-sky-400/75 hover:italic  '>
@@ -7,6 +8,7 @@ import React from 'react';
  //        </h1>
 // }
 
+// arrow function
  const Hello=()=>
 {
  return <h1 className=' text-sky-400/75 hover:italic  '>
