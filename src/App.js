@@ -3,6 +3,8 @@ import './App.css';
 import Print from './components/Multiple'
 // functional components
 import Hello from "./components/Hello"
+
+// class component
 import Car from './components/Cls_com';
 
 
