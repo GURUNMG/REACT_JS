@@ -24,7 +24,7 @@ function Print()
     <h1 class="outline outline-offset-0  ">{Add(a,b)}</h1>
    </div>
   
-  )
+  );
 }
 
 export default Print;

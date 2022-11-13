@@ -3,7 +3,7 @@ import './App.css';
 import Print from './components/Multiple'
 // functional components
 import Hello from "./components/Hello"
-
+import Car from './components/Cls_com';
 
 function App() {
   return (
@@ -13,11 +13,14 @@ function App() {
         Hello GURU
       </h1>
       <h1>...........................</h1>
+
       <Hello></Hello>
       <h1>MATHEMATICAL OPERATIONS</h1>
+
       <div class="mt-8">
       <Print></Print>
       </div>
+      <Car></Car>
     </div>
   );
 }
