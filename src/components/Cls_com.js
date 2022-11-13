@@ -22,12 +22,12 @@ class Car extends React.Component
      hi this is class  component car brand is {this.state.brand} and its color is {this.state.color}
     </h1>
 
-    <G name="GURUBHARAN"></G>
+    <G name="GURUBHARAN N M from props"></G>
    </div>
   );
  }
 }
 
-
+// const h=new Car();
 
 export default Car;
