@@ -13,6 +13,11 @@ const Division = (a,b) => {
 }
 Division(10,5);
 
+// Simple jsx (javascript xml) example
+const head1=<h1> heading 1</h1>
+
+// all mathematical ooperations, function calling, performing actions are done within {}
+const operation=<h1>TWO plus TWO is {2+2}</h1>;
 function App() {
   return (
 
@@ -32,6 +37,7 @@ function App() {
       </div>
       {/* to  call the function we need to use {call_the_function()}*/}
       {Division(10,5)}
+      {head1}{operation}
       <Car></Car>
 
     </div>
