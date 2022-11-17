@@ -6,7 +6,7 @@ import Hello from "./components/Hello"
 
 // class component
 import Car from './components/Cls_com';
-
+import actor from './components/props';
 //  This funtioin is used within the App.js file...
 const Division = (a,b) => {
   return a/b;
@@ -18,6 +18,7 @@ const head1=<h1> heading 1</h1>
 
 // all mathematical ooperations, function calling, performing actions are done within {}
 const operation=<h1>TWO plus TWO is {2+2}</h1>;
+
 function App() {
   return (
 
@@ -37,9 +38,10 @@ function App() {
       </div>
       {/* to  call the function we need to use {call_the_function()}*/}
       {Division(10,5)}
-      {head1}{operation}
+      {head1}
+      {operation}
       <Car></Car>
-
+      {actor}  {/* props */}
     </div>
   );
 }
