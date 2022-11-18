@@ -3,7 +3,7 @@ import './App.css';
 import Print from './components/Multiple'
 // functional components
 import Hello from "./components/Hello"
-
+import Pop from './components/Events';
 // class component
 import Car from './components/Cls_com';
 import actor from './components/props';
@@ -42,6 +42,9 @@ function App() {
       {operation}
       <Car></Car>
       {actor}  {/* props */}
+      <Pop></Pop>
+
+      
     </div>
   );
 }
