@@ -9,6 +9,8 @@ import Goal from './components/Conditionals';
 import Car from './components/Cls_com';
 import actor from './components/props';
 //  This funtioin is used within the App.js file...
+
+import Members from './components/List';
 const Division = (a,b) => {
   return a/b;
 }
@@ -46,6 +48,9 @@ function App() {
       <Pop></Pop>
 
       <Goal isGoal="false"></Goal>
+
+      {/* Members in list */}
+      <Members></Members>
     </div>
   );
 }
