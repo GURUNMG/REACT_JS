@@ -2,7 +2,7 @@ import React from "react";
 
 const Name=(props)=>
 {
- return   <li>{props.name}</li>
+ return   <li class="hover:text-emerald-700  hover:font-bold">{props.name}</li>
 }
 // function Name(props)
 // {
