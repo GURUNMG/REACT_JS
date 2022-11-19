@@ -5,6 +5,8 @@ import Print from './components/Multiple'
 import Hello from "./components/Hello"
 import Pop from './components/Events';
 import Goal from './components/Conditionals';
+import MyForm from './components/Form';
+
 // class component
 import Car from './components/Cls_com';
 import actor from './components/props';
@@ -51,6 +53,9 @@ function App() {
 
       {/* Members in list */}
       <Members></Members>
+
+      {/* froms in react */}
+      <MyForm></MyForm>
     </div>
   );
 }
