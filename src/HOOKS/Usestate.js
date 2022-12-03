@@ -4,12 +4,18 @@ import { useState } from "react";
 function Color()
 {
  const[car, setCar]=useState({
-  Model:"R15",
+  Model:"Swift",
   color:"RED",
-  Brand:"YAMAHA"
+  Brand:"MARUTHI"
  });
 
-
+// UPDATING PARTICULAR OBJECT
+const updateColor=()=>{
+  // setCar(prev=>{ return {...prev,color:"BLUE"}})
+  setCar((prev)=>{
+    return{...prev,color:"GREEN"}
+  })
+}
 //  const click=()=>{
 //   setColor("BLUE");
 //  }
@@ -19,8 +25,10 @@ function Color()
  return(
   <div>
     <h1>USESTATE AS AN ARRAY</h1>
-    <h1>{car.Brand}</h1>
+    <h1 style={{color:car.color}}>Car model is {car.Model} its color is {car.color}</h1>
 
+    <button class=" mx-3 border-2  border-orange-400" 
+      type="button" onClick={updateColor}>BLUE</button> 
 
     {/* <h1 style={{color:color}}>Color is {color}</h1>
     <button class=" mx-3 border-2  border-orange-400"
