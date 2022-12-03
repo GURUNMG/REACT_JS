@@ -14,6 +14,8 @@ import actor from './components/props';
 
 // HOOKS 
 import Update from './HOOKS/Intro';
+import Color from './HOOKS/Usestate';
+
 import Members from './components/List';
 const Division = (a,b) => {
   return a/b;
@@ -61,6 +63,7 @@ function App() {
 
       {/* HOOKS */}
       <Update></Update>
+      <Color></Color>
     </div>
   );
 }
