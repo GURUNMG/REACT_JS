@@ -13,7 +13,7 @@ function Color()
 const updateColor=()=>{
   // setCar(prev=>{ return {...prev,color:"BLUE"}})
   setCar((prev)=>{
-    return{...prev,color:"GREEN"}
+    return{...prev,color:"BLUE"}
   })
 }
 //  const click=()=>{
