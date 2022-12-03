@@ -14,7 +14,10 @@ import actor from './components/props';
 
 // HOOKS 
 import Update from './HOOKS/Intro';
+// useState
 import Color from './HOOKS/Usestate';
+// useEffect
+import Use from './HOOKS/useEffect';
 
 import Members from './components/List';
 const Division = (a,b) => {
@@ -64,6 +67,7 @@ function App() {
       {/* HOOKS */}
       <Update></Update>
       <Color></Color>
+      <Use></Use>
     </div>
   );
 }
