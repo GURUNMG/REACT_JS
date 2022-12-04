@@ -1,6 +1,5 @@
 import { useState } from "react";
 
-
 function Color()
 {
 //  const[car, setCar]=useState({
@@ -23,15 +22,15 @@ function Color()
 //  const c1=()=>setColor("RED");
  // const last=()=>setColor(his.slice(1));
  
- const[count, setCount]=useState(0);
+ const[count, setCount]=useState(()=> {return 0});
 
   const DECREMENT=()=>{
     setCount((prev_value)=>prev_value-1);
   }
-
   const INCREMENT=()=>{
     setCount((prev_value)=>prev_value+1);
   }
+
  return(
   <div>
     {/* <h1>USESTATE AS AN ARRAY</h1>
@@ -56,6 +55,7 @@ function Color()
       <h2>{count}</h2>
       <button class=" mx-3 border-2  border-green-400"type="button"
       onClick={INCREMENT}>+</button>
+
   </div>
  )
 }
