@@ -18,6 +18,8 @@ import Update from './HOOKS/Intro';
 import Color from './HOOKS/Usestate';
 // useEffect
 import Use from './HOOKS/useEffect';
+// useMemo
+import Memo from './HOOKS/useMemo';
 
 import Members from './components/List';
 const Division = (a,b) => {
@@ -68,6 +70,7 @@ function App() {
       <Update></Update>
       <Color></Color>
       <Use></Use>
+     <Memo></Memo> 
     </div>
   );
 }
